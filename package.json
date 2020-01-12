@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mw",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "github:marketwurks/eslint-config-mw",
   "main": "index.js",
   "files": [
