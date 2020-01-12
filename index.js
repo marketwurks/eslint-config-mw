@@ -19,7 +19,13 @@ module.exports = {
     '@typescript-eslint/camelcase': ['error', { properties: 'always' }],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        ignoreRestSiblings: true,
+        argsIgnorePattern: '^_',
+      },
+    ],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/no-empty-function': 'off',
