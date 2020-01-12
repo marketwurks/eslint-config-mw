@@ -47,6 +47,7 @@ module.exports = {
     // Custom
     'array-callback-return': 'warn',
     curly: 'warn',
+    'dot-notation': 'warn',
     'eol-last': 'warn',
     eqeqeq: ['error', 'always', { null: 'never' }],
     'guard-for-in': 'warn',
