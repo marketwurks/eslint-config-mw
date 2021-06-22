@@ -19,7 +19,6 @@ module.exports = {
   rules: {
     // TypeScript (@typescript-eslint/eslint-plugin)
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
-    '@typescript-eslint/camelcase': ['error', { properties: 'always' }],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/no-unused-vars': [
